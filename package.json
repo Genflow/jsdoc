@@ -25,7 +25,6 @@
     "node": ">=v14.17.3"
   },
   "scripts": {
-    "test": "gulp",
     "release": "np --no-publish --no-yarn && npm publish"
   }
 }
