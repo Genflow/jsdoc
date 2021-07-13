@@ -2,7 +2,7 @@
   "name": "@genflow/jsdoc",
   "private": true,
   "license": "Apache-2.0",
-  "repository": "git@github.com:Genflow/react-native-video.git",
+  "repository": "git@github.com:Genflow/jsdoc.git",
   "publishConfig": {
         "registry": "https://npm.pkg.github.com/"
   },
