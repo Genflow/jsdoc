@@ -5,7 +5,7 @@
   "license": "Apache-2.0",
   "repository": "git@github.com:Genflow/jsdoc.git",
   "publishConfig": {
-        "registry": "https://npm.pkg.github.com/"
+    "registry": "https://npm.pkg.github.com/"
   },
   "devDependencies": {
     "@jsdoc/eslint-config": "^1.0.8",
