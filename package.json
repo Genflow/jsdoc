@@ -1,7 +1,11 @@
 {
-  "name": "jsdoc",
+  "name": "@genflow/jsdoc",
   "private": true,
   "license": "Apache-2.0",
+  "repository": "git@github.com:Genflow/react-native-video.git",
+  "publishConfig": {
+        "registry": "https://npm.pkg.github.com/"
+  },
   "devDependencies": {
     "@jsdoc/eslint-config": "^1.0.8",
     "@jsdoc/test-matchers": "^0.1.6",
@@ -20,6 +24,7 @@
     "node": ">=v14.17.3"
   },
   "scripts": {
-    "test": "gulp"
+    "test": "gulp",
+    "release": "np --no-publish --no-yarn && npm publish"
   }
 }
